@@ -53,3 +53,5 @@ while(jonSnowHhealth > 0){
         console.log("Jon has been slain")
     }
 }
+
+// push: git innit / git add . / git commit -m "" / 
