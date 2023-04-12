@@ -2,7 +2,7 @@ for (let i = 0; i < 5; i++){
     console.log("Hello World")
 }
 
-//^This is a for loop
+//^This.is.a.for.loop
 //Increments:
 // i++
 // i++ = i + 5
@@ -15,7 +15,7 @@ for (let i = 0; i < 5; i++){
  //       console.log("x is small")
 //}
 
-//^This while loop could be dangerous because it would run infinitely
+//^This.while.loop.could.be.dangerous.because.it.would.run.infinitely
 
 let x = 10
 
@@ -24,6 +24,9 @@ while (x < 50) {
     x++
 }
 
-//^This would be safe because of the x++ increment
+//^This.would.be.safe.because.of.the.x++.increment
 
+for(i = 0; i <= 50; i++) {
+    console.log("Hello World")
+}
 
