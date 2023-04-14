@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "Version Control Software"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "storing repositories remotely"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+const gitInitDefinition = "Initializing a git repository in local directory."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+const gitCloneDefinition = "Download github repositories"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+const gitStatusDefinition = "tells you the files that are staged for commit and recent changes made"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "Git add, adds all the changes that have been added to the repository"
+
+const gitAddCode = "git add . "
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,6 +67,9 @@
 
 //CODE HERE
 
+const gitCommitDefinition = "Git commit commits the changes to version control"
+const gitCommitCode = "git commit -m 'first commit' "
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +78,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "Pushes the file changes to a remmote repository"
