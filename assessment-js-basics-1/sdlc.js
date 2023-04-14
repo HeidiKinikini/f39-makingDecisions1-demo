@@ -23,4 +23,6 @@
 const planning = "This is the first step, in which the end goal of the software is determined and defined. Developers typically will see what systems are already in place, and determine what features will need to be added." 
 const analysisOfRequirements = "This is the second step, in which the team will decide the needs of the users and the new product as the expectations of the users, products and the software"
 const design = "This is the third step, in which developers will define the details like prototypes for products, etc. This is where technical details will be discussed. This can include designs, psuedo-code, aesthetic of software, and sketches"
-const implementation = ""
+const implementation = "This is the fourth step, in which developers will start to code/build and put algorithm into programming language"
+const testingAndIntegration = "This is the fifth step, in which developers will start to test for viable product. Testing MVP/core features. This tests whether it meets demands and expectations"
+const maintain = "This is the sixth step, in which it is monitored and updated if needed to operate with coding expectations"
