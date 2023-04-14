@@ -212,10 +212,26 @@ console.log(pinkTons)
 
     Hint: there are 2000 pounds in a ton.
 */
+let fujiTonsTotal = 0
 
-// CODE HERE 
+for (i = 0; i < fujiTons.length; i++){
+    fujiTonsTotal = fujiTonsTotal + fujiTons[i]
+} console.log(`The total tons for Fuji Acres is ${fujiTonsTotal}`)
 
-// let fujiPounds =
+
+let galaTonsTotal = 0
+for (i = 0; i < galaTons.length; i++){
+    galaTonsTotal = galaTonsTotal + galaTons[i]
+}console.log(`The total tons for Gala Acres is ${galaTonsTotal}`)
+
+
+let pinkTonsTotal = 0
+for (i = 0; i < pinkTons.length; i++){
+    pinkTonsTotal = pinkTonsTotal + pinkTons[i]
+}console.log(`The total tons for Pink Acres is ${pinkTonsTotal}`)
+
+let fujiPounds = fujiTonsTotal * 2000
+console.log(`The pounds for Fuji Acres is ${fujiPounds}`)
 // let galaPounds =
 // let pinkPounds =
 
