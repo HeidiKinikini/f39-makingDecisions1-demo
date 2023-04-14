@@ -132,8 +132,12 @@ console.log(`Average daily acres is ${avgDailyAcres}`)
 let acresLeft = 174 
 let days = 0
 
-// CODE HERE
+while (acresLeft > 0){
+    days++
+    acresLeft -= avgDailyAcres
+}
 
+console.log(`it takes ${days} days for all of the apples to be harvested`)
 
 
 // PROBLEM 4
@@ -159,13 +163,35 @@ let days = 0
     and use the push method to add new 
     values to the new arrays.
 */
+let fujiAcresCopy = fujiAcres.slice()
+console.log(fujiAcresCopy)
+let fujiTons = [];
 
-// CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+for(i = 0; i < fujiAcresCopy.length; i++){
+    fujiTons.push(fujiAcresCopy[i] * 6.5)
+}
+console.log(fujiTons)
 
+
+let galaAcresCopy = galaAcres.slice()
+console.log(galaAcresCopy)
+let galaTons = [];
+
+for (i = 0; i < galaAcresCopy.length; i++){
+    galaTons.push(galaAcresCopy[i] * 6.5)
+}
+console.log(galaTons)
+
+
+let pinkAcresCopy = pinkAcres.slice()
+console.log(pinkAcresCopy)
+let pinkTons = [];
+
+for (i = 0; i < pinkAcresCopy.length; i++){
+    pinkTons.push(pinkAcresCopy[i] * 6.5)
+}
+console.log(pinkTons)
 
 
 
