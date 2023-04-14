@@ -49,11 +49,29 @@ const pinkPrice = .55
     Log `totalAcres` to the console.
 */
 
-// CODE HERE
+let fujiTotal = 0 
+for (i = 0; i < fujiAcres.length; i++){
+    fujiTotal = fujiTotal + fujiAcres[i]
+}
+
+console.log(`Daily Fuji acres is ${fujiTotal}`)
 
 
+let galaTotal = 0
+for (i = 0; i < galaAcres.length; i++){
+    galaTotal = galaTotal + galaAcres[i]
+}
+console.log(`Daily Gala acres is ${galaTotal}`)
 
+let pinkTotal = 0
+for (i = 0; i < pinkAcres.length; i++){
+    pinkTotal = pinkTotal + pinkAcres[i]
+}
+console.log(`Daily Pink acres is ${pinkTotal}`)
 
+console.log("--------------")
+const totalAcres = fujiTotal + galaTotal + pinkTotal
+console.log(`Total weekly acres is ${totalAcres}`)
 
 // PROBLEM 2
 
@@ -67,7 +85,16 @@ const pinkPrice = .55
     Log `averageDailyAcres` to the console.
 */
 
-// CODE HERE
+let fujiAvg = fujiTotal / fujiAcres.length 
+let galaAvg = galaTotal / galaAcres.length
+let pinkAvg = pinkTotal / pinkAcres.length
+
+let avgDailyAcres = pinkAvg + galaAvg + fujiAvg
+
+console.log(`Average daily acres is ${avgDailyAcres}`)
+
+
+
 
 
 
