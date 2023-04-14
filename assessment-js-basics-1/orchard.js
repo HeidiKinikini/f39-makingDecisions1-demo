@@ -232,8 +232,10 @@ for (i = 0; i < pinkTons.length; i++){
 
 let fujiPounds = fujiTonsTotal * 2000
 console.log(`The pounds for Fuji Acres is ${fujiPounds}`)
-// let galaPounds =
-// let pinkPounds =
+let galaPounds = galaTonsTotal * 2000
+console.log(`The pounds for Gala Acres is ${galaPounds}`)
+let pinkPounds = pinkTonsTotal * 2000
+console.log(`The pounds for Pink Acres is ${pinkPounds}`)
 
 
 
@@ -256,11 +258,15 @@ console.log(`The pounds for Fuji Acres is ${fujiPounds}`)
     console. 
 */
 
-// CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+
+let fujiProfit = fujiPounds * fujiPrice
+let galaProfit = galaPounds * galaPrice
+let pinkProfit = pinkPounds * pinkPrice
+
+console.log(`The profit for Fuji Acres is ${fujiProfit}`)
+console.log(`The profit for Gala Acres is ${galaProfit}`)
+console.log(`The profit for Pink Acres is ${pinkProfit}`)
 
 
 
@@ -277,4 +283,6 @@ console.log(`The pounds for Fuji Acres is ${fujiPounds}`)
     Log `totalProfit` to the console.
 */
 
-// CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+
+console.log(`The total profit is ${totalProfit}`)
